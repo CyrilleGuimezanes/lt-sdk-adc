@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="lt.pgb.sdk.adcolony"
+    version="1.0.10">
+
+    <name>SDK AdColony</name>
+    <description>Dependency</description>
+    <author>Luditeam</author>
+    <license>MIT</license>
+    <keywords>cordova,plugin,ad,video,adcolony,monetisation</keywords>
+    <repo></repo>
+    <issue></issue>
+	<engines>
+	    <engine name="cordova" version=">=3.5.0" />
+	</engines>
+
+	<!-- ios -->
+	<platform name="ios">
+		<dependency id="com.ios.adcolony" url="https://github.com/CyrilleGuimezanes/lt-sdk-adc"/>
+		<framework src="AudioToolbox.framework" weak="true" />
+		<framework src="AdSupport.framework" weak="true" />
+		<framework src="AVFoundation.framework"/>
+		<framework src="CFNetwork.framework"/>
+		<framework src="CoreGraphics.framework" />
+		<framework src="CoreMedia.framework" />
+		<framework src="CoreTelephony.framework" />
+		<framework src="EventKit.framework" />
+		<framework src="EventKitUI.framework"/>
+		<framework src="Foundation.framework" />
+		<framework src="libz.1.2.5.dylib" />
+		<framework src="MediaPlayer.framework" />
+		<framework src="MessageUI.framework" />
+		<framework src="QuartzCore.framework" />
+		<framework src="Social.framework" weak="true"/>
+		<framework src="StoreKit.framework"/>
+		<framework src="SystemConfiguration.framework" />
+		<framework src="UIKit.framework" />
+		<framework src="WebKit.framework" />
+	</platform>
+</plugin>
