@@ -17,7 +17,7 @@
 
 	<!-- ios -->
 	<platform name="ios">
-		<dependency id="com.ios.adcolony" url="https://github.com/CyrilleGuimezanes/lt-sdk-adc"/>
+		<framework src="src/ios/AdColony.framework" custom="true"/>
 		<framework src="AudioToolbox.framework" weak="true" />
 		<framework src="AdSupport.framework" weak="true" />
 		<framework src="AVFoundation.framework"/>
